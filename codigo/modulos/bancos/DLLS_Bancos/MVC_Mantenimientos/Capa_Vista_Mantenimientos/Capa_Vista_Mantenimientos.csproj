@@ -82,6 +82,12 @@
     <Compile Include="Frm_M_Transacciones.Designer.cs">
       <DependentUpon>Frm_M_Transacciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Pacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pacientes.Designer.cs">
+      <DependentUpon>Frm_Pacientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M_Transacciones.resx">
       <DependentUpon>Frm_M_Transacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Pacientes.resx">
+      <DependentUpon>Frm_Pacientes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

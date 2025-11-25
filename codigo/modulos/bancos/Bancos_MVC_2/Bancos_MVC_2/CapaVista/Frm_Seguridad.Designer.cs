@@ -31,6 +31,7 @@
             this.TipoPagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Transacciones = new System.Windows.Forms.ToolStripMenuItem();
             this.pruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prueba3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Btn_Bitacora = new System.Windows.Forms.ToolStripMenuItem();
             this.movimientosBancariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,7 +55,7 @@
             this.Pnl_Superior = new System.Windows.Forms.Panel();
             this.Lbl_Bancos = new System.Windows.Forms.Label();
             this.Pic_Cerrar = new System.Windows.Forms.PictureBox();
-            this.prueba3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.Pnl_Superior.SuspendLayout();
@@ -128,7 +129,8 @@
             this.TipoPagoToolStripMenuItem,
             this.Transacciones,
             this.pruebaToolStripMenuItem,
-            this.prueba3ToolStripMenuItem});
+            this.prueba3ToolStripMenuItem,
+            this.pacientesToolStripMenuItem});
             this.catálogosToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10F);
             this.catálogosToolStripMenuItem.Name = "catálogosToolStripMenuItem";
             this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
@@ -175,6 +177,13 @@
             this.pruebaToolStripMenuItem.Size = new System.Drawing.Size(326, 26);
             this.pruebaToolStripMenuItem.Text = "Prueba";
             this.pruebaToolStripMenuItem.Click += new System.EventHandler(this.pruebaToolStripMenuItem_Click);
+            // 
+            // prueba3ToolStripMenuItem
+            // 
+            this.prueba3ToolStripMenuItem.Name = "prueba3ToolStripMenuItem";
+            this.prueba3ToolStripMenuItem.Size = new System.Drawing.Size(326, 26);
+            this.prueba3ToolStripMenuItem.Text = "Prueba 3";
+            this.prueba3ToolStripMenuItem.Click += new System.EventHandler(this.prueba3ToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
             // 
@@ -372,12 +381,12 @@
             this.Pic_Cerrar.TabStop = false;
             this.Pic_Cerrar.Click += new System.EventHandler(this.Pic_Cerrar_Click);
             // 
-            // prueba3ToolStripMenuItem
+            // pacientesToolStripMenuItem
             // 
-            this.prueba3ToolStripMenuItem.Name = "prueba3ToolStripMenuItem";
-            this.prueba3ToolStripMenuItem.Size = new System.Drawing.Size(326, 26);
-            this.prueba3ToolStripMenuItem.Text = "Prueba 3";
-            this.prueba3ToolStripMenuItem.Click += new System.EventHandler(this.prueba3ToolStripMenuItem_Click);
+            this.pacientesToolStripMenuItem.Name = "pacientesToolStripMenuItem";
+            this.pacientesToolStripMenuItem.Size = new System.Drawing.Size(326, 26);
+            this.pacientesToolStripMenuItem.Text = "Pacientes";
+            this.pacientesToolStripMenuItem.Click += new System.EventHandler(this.pacientesToolStripMenuItem_Click);
             // 
             // Frm_Seguridad
             // 
@@ -447,5 +456,6 @@
         private System.Windows.Forms.ToolStripMenuItem tipoCambioDelDiaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem prueba3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pacientesToolStripMenuItem;
     }
 }

@@ -36,7 +36,7 @@ namespace Capa_Vista_Seguridad
         // CONFIGURACION INICIAL
         private void ConfiguracionInicial()
         {
-            Btn_Guardar.Enabled = false;
+            Btn_Guardar.Enabled = true;
         }
 
         // CARGA DE DATOS
