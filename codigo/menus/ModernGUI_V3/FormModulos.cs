@@ -37,6 +37,12 @@ namespace Interfac_V3
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {
+
+            using (var splash = new Capa_Vista_Seguridad.Frm_Slash())
+            {
+                splash.ShowDialog();
+            }
+
             Frm_Login forma = new Frm_Login();
             forma.Show();
         }
@@ -58,8 +64,15 @@ namespace Interfac_V3
 
         private void btnPropio_Click(object sender, EventArgs e)
         {
-            //FormPrincipal forma = new FormPrincipal();
-            //forma.Show();
+            using (var splash = new Capa_Vista_Bancos.Frm_Slash())
+            {
+                splash.ShowDialog();
+            }
+
+            Capa_Vista_Bancos.Frm_Login frm = new Capa_Vista_Bancos.Frm_Login();
+            frm.FormClosed += (s, args) => this.Show();
+            frm.Show();
+            this.Hide();
         }
     }
 }
